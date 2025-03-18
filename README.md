@@ -1,44 +1,15 @@
-# 📰 AI News Summarization & Sentiment Analysis
+# News Summarization & Sentiment Analysis with Hindi TTS
 
-This project fetches real-time news articles, summarizes them, analyzes sentiment, and provides Hindi translation with text-to-speech (TTS) support.
+## 🛠 Features
+- ✅ Extracts news articles for a given company
+- ✅ Summarizes and performs sentiment analysis
+- ✅ Comparative analysis on sentiment distribution
+- ✅ Converts report to Hindi speech using gTTS
+- ✅ Simple UI built with Streamlit
+- ✅ Flask API for backend processing
 
-## 📌 Features
-- Fetch news from **NewsAPI**
-- Summarize articles using **NLTK**
-- Analyze sentiment (Positive/Negative/Neutral)
-- Translate summaries to **Hindi**
-- Generate **Text-to-Speech (TTS)** audio
-
-## 🛠 Setup & Installation
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+## 📌 Installation
+```sh
+git clone https://github.com/YOUR_GITHUB_REPO
+cd news-summarization
 pip install -r requirements.txt
-python app.py
-🔗 API Endpoints
-Fetch News & Sentiment Analysis
-GET /fetch_news?company=Tesla
-Example Response:
-json
-Copy
-Edit
-{
-    "Company": "Tesla",
-    "Articles": [
-        {
-            "Title": "Tesla Stock Jumps",
-            "Summary": "Tesla reported strong earnings...",
-            "Sentiment": "Positive"
-        }
-    ]
-}
-📂 Project Structure
-bash
-Copy
-Edit
-nstsa/
-│── api.py           # API functions
-│── app.py           # Main script
-│── utils.py         # Utility functions
-│── requirements.txt # Dependencies
-│── README.md        # Documentation

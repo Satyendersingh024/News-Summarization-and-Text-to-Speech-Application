@@ -1,0 +1,8 @@
+streamlit
+requests
+nltk
+transformers
+torch
+gtts
+pydub
+ffmpeg
